@@ -1,0 +1,19 @@
+html{
+    background-color: tan;
+    font-family: sans-serif;
+}
+h1{
+    color:brown;
+}
+summary {
+    font-size: 4rem;
+  }
+.par{
+    background-color: white;
+}
+.impar{
+    background-color:  hsl(325 100% 90% / 1);
+}
+.pregunta{
+    color:orange;
+}

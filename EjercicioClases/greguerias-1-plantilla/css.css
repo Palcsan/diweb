@@ -1,0 +1,29 @@
+html{
+    background-color: hsl(145, 50%, 35%);
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 300%;
+    text-transform: capitalize;
+}
+p {
+    font-size: 150%;
+}
+.rojo{
+    color: red;
+    font-family: cursive;
+}
+.naranja{
+    color: orange;
+    font-family: monospace;
+    font-size: 200%;
+}
+.marron{
+    color: hsl(35, 100%, 85%);
+    font-family: sans-serif;
+}
+.blanco{
+    color: white;
+    font-family: serif;
+    font-style: oblique;
+}
