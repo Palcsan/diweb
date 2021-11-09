@@ -1,0 +1,18 @@
+html{
+    font-size: larger;
+}
+h2:first-of-type{
+    color:red;
+}
+h2::first-letter{
+    color:red;
+}
+li:nth-child(3){
+    color:green;
+}
+li:nth-child(odd):hover::after {
+    content:" Soy una etiqueta impar";
+}
+li:nth-child(even):hover::before {
+    content:"Soy una etiqueta par ";
+}
