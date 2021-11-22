@@ -1,0 +1,29 @@
+$colorTexto:color #eee;
+$colorTextoAlPasarSobreEl: color #fff;
+$colorDeFondo: color #666;
+$colorDelFondoAlPasarElRatonSobreEseElementoDeLaLista:color #888;
+
+
+@mixin mixin_pedido(){
+    color:$colorTexto;
+}
+
+@mixin raton_encima_texto(){
+    color:$colorTextoAlPasarSobreEl;
+}
+
+@mixin tamano_caja($boxSize){
+    box-sizing:$boxSize;
+}
+
+@mixin transiciones($propiedadTrans,$duracionTrans,$timingTrans){
+    transition-property: $propiedadTrans;
+    transition-duration: $duracionTrans;
+    transition-timing-function: $timingTrans;
+}
+
+@mixin animaciones($nombreAnima,$duracionAnima,$timingAnima){
+    animation-name: $nombreAnima;
+    animation-duration: $duracionAnima;
+    animation-timing-function: $timingAnima;
+}
