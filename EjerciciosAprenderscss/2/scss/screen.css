@@ -77,4 +77,15 @@ ul .submenu {
   height: 0px;
   overflow: hidden;
 }
+
+footer {
+  color: color #eee;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding: 5px;
+}
 /*# sourceMappingURL=screen.css.map */

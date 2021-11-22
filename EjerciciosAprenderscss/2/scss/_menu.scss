@@ -57,3 +57,13 @@ ul{
         overflow: hidden;
     }
 }
+footer{
+    @include mixin_pedido();
+    @include tamano_caja(border-box);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+}
