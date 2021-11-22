@@ -9,21 +9,30 @@ $colorDelFondoAlPasarElRatonSobreEseElementoDeLaLista:color #888;
 }
 
 @mixin raton_encima_texto(){
-    color:$colorTextoAlPasarSobreEl;
+    background-color: $colorTextoAlPasarSobreEl;
 }
 
 @mixin tamano_caja($boxSize){
     box-sizing:$boxSize;
 }
 
-@mixin transiciones($propiedadTrans,$duracionTrans,$timingTrans){
+@mixin transiciones($propiedadTrans,$duracionTrans,$timingTrans:linear){
     transition-property: $propiedadTrans;
     transition-duration: $duracionTrans;
     transition-timing-function: $timingTrans;
+    -moz-transition: $propiedadTrans $duracionTrans $timingTrans;
+    -webkit-transition: $propiedadTrans $duracionTrans $timingTrans;
 }
 
 @mixin animaciones($nombreAnima,$duracionAnima,$timingAnima){
     animation-name: $nombreAnima;
     animation-duration: $duracionAnima;
     animation-timing-function: $timingAnima;
+    -moz-animation: $nombreAnima $duracionAnima $timingAnima;
+    -webkit-animation: $nombreAnima $duracionAnima $timingAnima;
 }
+
+
+
+
+@import '_menu.scss';
