@@ -1,0 +1,36 @@
+.div{
+    border: solid white 5px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.header{
+    background-color: #29FE2F;
+    height: 50px;
+}
+
+.numeros{
+    height: 100px;
+    background-color: #88ABDD;
+}
+
+.letras{
+    height: 100px;
+    background-color:#CCCCCD;
+}
+
+.dispositivo{
+    background-color:#2DFFFF;
+    height: 75px;
+}
+
+.emojis{
+    background-color: #FE9A5D;
+    height: 100px;
+}
+
+.footer{
+    background-color: #29FE2F;
+    height: 50px;
+}
