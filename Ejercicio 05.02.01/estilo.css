@@ -1,0 +1,36 @@
+.div{
+    height: 100px;
+    border: solid white 5px;
+ }
+
+.green1{
+    background-color: #2DE032;
+}
+
+.green2{
+    background-color: #2DE032;
+    height: 50px;
+    border: solid white 5px;
+}
+
+.red{
+    background-color: #FC0D1B;
+    border: solid white 5px;
+}
+
+.blue{
+    background-color: #0B24FB;
+}
+
+.orange{
+    background-color: #FE9A5D;
+    height: 200px;
+}
+
+.pink{
+    background-color: #FD28FB;
+}
+
+.borde{
+    border:1px solid black;
+}
