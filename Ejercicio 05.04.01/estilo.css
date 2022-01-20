@@ -1,0 +1,15 @@
+body {
+    padding: 4%;
+}
+
+.horas {
+    text-align: center;
+}
+
+.recreo {
+    letter-spacing: 30px;
+}
+
+a {
+    color: black;
+}
